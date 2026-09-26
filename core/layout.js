@@ -64,8 +64,15 @@ function navbar({ user, path }) {
           </form>
         </div>
       </div>`
-    : `<a href="/login" class="btn btn-ghost btn-sm">Log in</a>
-       <a href="/register" class="btn btn-primary btn-sm">${icon('sparkles', { size: 15 })} Join free</a>`;
+    : `<a href="/login" class="btn btn-ghost btn-sm nav-auth-desktop">Log in</a>
+       <a href="/register" class="btn btn-primary btn-sm nav-auth-desktop">${icon('sparkles', { size: 15 })} Join free</a>`;
+
+  const mobileAuth = user
+    ? ''
+    : `<div class="nav-links-mobile-auth">
+         <a href="/login" class="btn btn-ghost btn-sm">Log in</a>
+         <a href="/register" class="btn btn-primary btn-sm">${icon('sparkles', { size: 15 })} Join free</a>
+       </div>`;
 
   return `
   <div class="topnav-wrap" id="topnavWrap">
@@ -81,7 +88,7 @@ function navbar({ user, path }) {
             <small>Fandom Universe</small>
           </span>
         </a>
-        <nav class="nav-links" id="navLinks">${links}</nav>
+        <nav class="nav-links" id="navLinks">${links}${mobileAuth}</nav>
         <div class="nav-actions">
           <button class="icon-btn" data-toggle-cursorfx type="button" aria-label="Toggle cursor glow trail" title="Toggle cursor glow trail">
             ${icon('sparkles', { size: 16 })}

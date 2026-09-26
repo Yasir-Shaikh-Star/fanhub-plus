@@ -486,6 +486,7 @@ a:hover .icon-bounce-hover, button:hover .icon-bounce-hover { transform: transla
 .nav-links a.active { color: var(--primary); background: var(--primary-tint); }
 .nav-actions { display: flex; align-items: center; gap: 8px; }
 .nav-mobile-toggle { display: none; }
+.nav-links-mobile-auth { display: none; }
 
 .avatar-btn { display: flex; align-items: center; gap: 8px; padding: 4px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); cursor: pointer; }
 .avatar-btn:hover { border-color: var(--primary); }
@@ -527,6 +528,21 @@ a:hover .icon-bounce-hover, button:hover .icon-bounce-hover { transform: transla
   .nav-mobile-toggle.is-open .icon-menu-line:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
   .nav-mobile-toggle.is-open .icon-menu-line:nth-child(2) { opacity: 0; }
   .nav-mobile-toggle.is-open .icon-menu-line:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+  /* The "Log in"/"Join free" buttons move into the mobile dropdown panel
+     instead of sitting in the top bar, so the top bar (logo + icon
+     buttons + hamburger) never overflows the viewport width. */
+  .nav-actions .nav-auth-desktop { display: none; }
+  .nav-links-mobile-auth {
+    display: flex; gap: 8px; margin-top: 10px; padding-top: 10px;
+    border-top: 1px solid var(--border);
+  }
+  .nav-links-mobile-auth .btn { flex: 1; justify-content: center; }
+}
+
+@media (max-width: 420px) {
+  /* Reclaim a bit more room in the top bar on very narrow phones. */
+  [data-toggle-cursorfx] { display: none; }
 }
 
 .breadcrumbs { display: flex; align-items: center; gap: 6px; font-size: 0.83rem; color: var(--text-faint); padding: 18px 0 0; flex-wrap: wrap; }
