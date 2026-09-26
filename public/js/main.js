@@ -221,6 +221,15 @@
 
   if ('IntersectionObserver' in window) {
     var wipeSections = document.querySelectorAll('main > .section');
+    // threshold is a fraction of the SECTION's own height, not the viewport.
+    // Listing pages (characters/merch/articles/etc.) wrap the whole page —
+    // heading, filters and every card — in a single tall section, which on
+    // a narrow one-column mobile layout can run several thousand pixels
+    // tall. A 0.1 (10%) threshold then never gets satisfied because only a
+    // sliver of that huge section is ever on-screen at once, so the
+    // section stays at opacity:0 forever. threshold: 0 fires as soon as any
+    // part of the section enters the viewport, which is what "reveal on
+    // scroll" is meant to mean regardless of how tall the section is.
     var wipeIo = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
@@ -228,7 +237,7 @@
           wipeIo.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.1 });
+    }, { threshold: 0 });
     wipeSections.forEach(function (el) {
       el.classList.add('section-wipe');
       wipeIo.observe(el);
