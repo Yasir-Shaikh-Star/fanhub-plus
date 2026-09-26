@@ -16,7 +16,7 @@ module.exports = function characterDetail({ user, path, flash, character, catego
   const body = `
   <section class="section">
     <div class="container" style="max-width:820px">
-      <div class="grid" style="grid-template-columns:260px 1fr;gap:28px" class="reveal">
+      <div class="grid detail-hero-grid reveal">
         <div style="aspect-ratio:1;border-radius:var(--radius-lg);overflow:hidden">${heroMedia}</div>
         <div>
           <div style="display:flex;gap:8px;margin-bottom:10px;flex-wrap:wrap">${category ? `<span class="tag tag-primary">${category.name}</span>` : ''} ${tagList}</div>

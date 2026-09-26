@@ -14,7 +14,7 @@ module.exports = function merchDetail({ user, path, flash, item, category, bookm
   const body = `
   <section class="section">
     <div class="container" style="max-width:900px">
-      <div class="grid" style="grid-template-columns:1fr 1fr;gap:28px">
+      <div class="grid detail-hero-grid detail-hero-split">
         <div style="aspect-ratio:1;border-radius:var(--radius-lg);overflow:hidden" class="reveal">${heroMedia}</div>
         <div class="reveal">
           <div style="display:flex;gap:8px;margin-bottom:10px;flex-wrap:wrap">
