@@ -64,7 +64,8 @@ function characterCard(ch, category, { bookmarked = false, photo = null } = {}) 
     : bannerArt(ch.name, category ? category.slug : '', {});
   return `
   <article class="card card-glow" data-reveal>
-    <div class="card-media">${media}
+    <div class="card-media">
+      <a href="/characters/${ch.id}">${media}</a>
       <button class="icon-btn card-bookmark ${bookmarked ? 'is-active' : ''}" data-bookmark-toggle data-target-type="character" data-target-id="${ch.id}" aria-label="Bookmark" aria-pressed="${bookmarked}">${icon('bookmark', { size: 15 })}</button>
       ${ch.affiliation ? `<div class="card-stat-slide">${icon('shield', { size: 12 })} ${ch.affiliation}</div>` : ''}
     </div>
@@ -83,7 +84,8 @@ function merchCard(item, category, { bookmarked = false, photo = null } = {}) {
     : bannerArt(item.name, category ? category.slug : '', {});
   return `
   <article class="card" data-reveal>
-    <div class="card-media">${media}
+    <div class="card-media">
+      <a href="/merch/${item.id}">${media}</a>
       <span class="card-type-badge">${item.isUpcoming ? icon('clock', { size: 12 }) : icon('fire', { size: 12 })} ${item.isUpcoming ? 'Upcoming' : item.tag}</span>
       <button class="icon-btn card-bookmark ${bookmarked ? 'is-active' : ''}" data-bookmark-toggle data-target-type="merch" data-target-id="${item.id}" aria-label="Bookmark" aria-pressed="${bookmarked}">${icon('bookmark', { size: 15 })}</button>
     </div>
