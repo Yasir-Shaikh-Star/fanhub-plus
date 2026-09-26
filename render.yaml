@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: fanhub-plus
+    runtime: node
+    plan: free
+    buildCommand: "true"
+    startCommand: "node server.js"
+    envVars:
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: UNSPLASH_ACCESS_KEY
+        sync: false
+      - key: PEXELS_API_KEY
+        sync: false
+      - key: OMDB_API_KEY
+        sync: false
+      - key: BREVO_API_KEY
+        sync: false
+      - key: BREVO_SENDER_EMAIL
+        sync: false

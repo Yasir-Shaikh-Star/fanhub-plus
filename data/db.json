@@ -1,0 +1,1155 @@
+{
+  "users": [
+    {
+      "id": "090fe3ce9557",
+      "name": "Aria Nakamura",
+      "email": "visionarycoders@gmail.com",
+      "passwordHash": "1ea2dc0306b2ca19d9910e1479978c65:0a32dc45d09791763913df12a5aadb24f00f39bf7d8e40d947cf3e6112721f1e99ea698eec2e3024f990b958d1992ad8eaa2273b95113f5e1fce967b6afb3e41",
+      "role": "admin",
+      "bio": "Platform admin keeping the multiverse tidy.",
+      "avatar": null,
+      "favoriteCategories": [
+        "6d951a66b141",
+        "b87ff49d8943"
+      ],
+      "theme": "dark",
+      "fontSize": "md",
+      "createdAt": "2026-09-25T16:31:43.507Z",
+      "resetToken": null,
+      "resetTokenExpiry": null,
+      "loginCode": null,
+      "loginCodeExpiry": null
+    },
+    {
+      "id": "c53de565474e",
+      "name": "equal",
+      "email": "equalring@gmail.com",
+      "passwordHash": "543e092f395a69bf32537ae5aab4c632:e91ece313512a44c0a3463a455d6ef9b7ce340bdc861031261c1c39b26d99e1852e22ae94bf00b25d4873f7ed2cc92d4f11ad41c1e28f718f538f8db425e7ce2",
+      "role": "registered",
+      "bio": "",
+      "avatar": null,
+      "favoriteCategories": [],
+      "theme": "light",
+      "fontSize": "md",
+      "createdAt": "2026-09-25T16:34:45.555Z",
+      "resetToken": "4af7e07692e186a663d5d697d63bd6f69d9ea2dbf7021c5f",
+      "resetTokenExpiry": 1790355973931,
+      "loginCode": null,
+      "loginCodeExpiry": null
+    },
+    {
+      "id": "cd7c926136c1",
+      "name": "Yasir Shaikh Shaikh",
+      "email": "razayasir889@gmail.com",
+      "passwordHash": "38b0159d30ea01d7597afadd6b70319a:2ac39940ac64c42d263031af9b224990196d8094e968c89f9dc0054cd79e2d2ee6b62b9797b8dde4eb91f9a39abeb2976f99909198ae02a286675ac4ff1613ea",
+      "role": "registered",
+      "bio": "",
+      "avatar": null,
+      "favoriteCategories": [],
+      "theme": "light",
+      "fontSize": "md",
+      "createdAt": "2026-09-25T16:37:09.615Z",
+      "resetToken": null,
+      "resetTokenExpiry": null,
+      "loginCode": null,
+      "loginCodeExpiry": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "6d951a66b141",
+      "slug": "anime",
+      "name": "Anime",
+      "description": "Seasonal favorites, classic arcs, and everything in between."
+    },
+    {
+      "id": "64257a51cda3",
+      "slug": "gaming",
+      "name": "Gaming",
+      "description": "Worlds to sink hours into, from cozy sims to punishing roguelikes."
+    },
+    {
+      "id": "bab2cfe7f434",
+      "slug": "movies",
+      "name": "Movies",
+      "description": "Big-screen universes, festival darlings, and cult favorites."
+    },
+    {
+      "id": "01a475754553",
+      "slug": "tv-shows",
+      "name": "TV Shows",
+      "description": "Long-running sagas and limited series worth the binge."
+    },
+    {
+      "id": "c15631e3d74e",
+      "slug": "kpop",
+      "name": "K-Pop",
+      "description": "Comebacks, stages, and the groups defining the sound."
+    },
+    {
+      "id": "b87ff49d8943",
+      "slug": "comics",
+      "name": "Comics",
+      "description": "Ongoing runs, one-shots, and indie books with heart."
+    },
+    {
+      "id": "45b432cd3fe0",
+      "slug": "manga",
+      "name": "Manga",
+      "description": "Chapters, volumes, and the fandoms built around them."
+    },
+    {
+      "id": "8150d79c7260",
+      "slug": "cosplay",
+      "name": "Cosplay",
+      "description": "Builds, tutorials, and the makers behind the costumes."
+    }
+  ],
+  "content": [
+    {
+      "id": "c5fa769e08f7",
+      "categoryId": "64257a51cda3",
+      "title": "Fan Theory: Petal Kingdoms' Hidden Sixth Island",
+      "type": "article",
+      "description": "A community theory about datamined assets suggesting a sixth garden island.",
+      "body": "Dataminers combing through Petal Kingdoms' latest patch files found unused tile assets that don't match any of the five known garden islands. This piece lays out the visual evidence and why the community thinks a sixth island is coming.",
+      "status": "approved",
+      "submittedBy": "49c48424e651",
+      "ratings": [
+        {
+          "userId": "cd7c926136c1",
+          "stars": 5
+        }
+      ],
+      "popularityScore": 1,
+      "releaseDate": "2026-09-23T15:57:03.751Z",
+      "createdAt": "2026-09-25T15:17:12.322Z"
+    },
+    {
+      "id": "625aca19903d",
+      "categoryId": "6d951a66b141",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 58,
+      "releaseDate": "2026-04-26T15:57:03.613Z",
+      "createdAt": "2026-08-09T15:57:03.613Z",
+      "title": "Starlit Requiem OST — \"Unfinished Movement\"",
+      "type": "audio",
+      "description": "The main theme from Starlit Requiem, performed for the mid-season broadcast.",
+      "mediaUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+    },
+    {
+      "id": "2f82466d2a19",
+      "categoryId": "64257a51cda3",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 83,
+      "releaseDate": "2026-04-26T15:57:03.613Z",
+      "createdAt": "2026-08-09T15:57:03.613Z",
+      "title": "Ember Keep — Ambient Keep Theme",
+      "type": "audio",
+      "description": "The looping ambient track that plays while managing your keep between raids.",
+      "mediaUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+    },
+    {
+      "id": "7c88c5c407e5",
+      "categoryId": "bab2cfe7f434",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 46,
+      "releaseDate": "2026-04-26T15:57:03.613Z",
+      "createdAt": "2026-08-09T15:57:03.613Z",
+      "title": "The Glass Horizon — Main Theme",
+      "type": "audio",
+      "description": "The string-led main theme composed for The Glass Horizon.",
+      "mediaUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
+    },
+    {
+      "id": "9d35ca3e74ba",
+      "categoryId": "01a475754553",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 46,
+      "releaseDate": "2026-04-26T15:57:03.613Z",
+      "createdAt": "2026-08-09T15:57:03.613Z",
+      "title": "The Last Lighthouse — End Credits Theme",
+      "type": "audio",
+      "description": "The end credits piece that has played, slightly altered, at the close of every episode.",
+      "mediaUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+    },
+    {
+      "id": "d844d9e3fdaf",
+      "categoryId": "c15631e3d74e",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 43,
+      "releaseDate": "2026-04-26T15:57:03.613Z",
+      "createdAt": "2026-08-09T15:57:03.613Z",
+      "title": "LUNA ELEVEN — \"Paper Moonlight\" (Acoustic Ver.)",
+      "type": "audio",
+      "description": "Stripped-down acoustic version of the comeback title track, released for radio.",
+      "mediaUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
+    },
+    {
+      "id": "8bf918a705ca",
+      "categoryId": "6d951a66b141",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 54,
+      "releaseDate": "2026-06-05T15:57:03.613Z",
+      "createdAt": "2026-08-04T15:57:03.613Z",
+      "title": "Nine Tail Drift — Opening Sequence",
+      "type": "video",
+      "description": "The full opening animation for Nine Tail Drift, a street-racing anime with spirit-fox mythology woven through it.",
+      "mediaUrl": "https://archive.org/download/Sintel/sintel-2048-stereo_512kb.mp4"
+    },
+    {
+      "id": "aff942322403",
+      "categoryId": "64257a51cda3",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 52,
+      "releaseDate": "2026-06-05T15:57:03.613Z",
+      "createdAt": "2026-08-04T15:57:03.613Z",
+      "title": "Petal Kingdoms — Launch Trailer",
+      "type": "video",
+      "description": "The launch trailer for Petal Kingdoms, a turn-based tactics game set across floating garden islands.",
+      "mediaUrl": "https://archive.org/download/BigBuckBunny_328/BigBuckBunny_512kb.mp4"
+    },
+    {
+      "id": "e26a3a878fb6",
+      "categoryId": "bab2cfe7f434",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 58,
+      "releaseDate": "2026-06-05T15:57:03.613Z",
+      "createdAt": "2026-08-04T15:57:03.613Z",
+      "title": "Salt & Static — Official Trailer",
+      "type": "video",
+      "description": "Trailer for Salt & Static, a coastal noir about a radio operator picking up transmissions that shouldn't exist.",
+      "mediaUrl": "https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4"
+    },
+    {
+      "id": "b24251e8a6fe",
+      "categoryId": "01a475754553",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 50,
+      "releaseDate": "2026-06-05T15:57:03.613Z",
+      "createdAt": "2026-08-04T15:57:03.613Z",
+      "title": "Nocturne County — Season 2 Teaser",
+      "type": "video",
+      "description": "Teaser trailer for season two of the small-town mystery series Nocturne County.",
+      "mediaUrl": "https://archive.org/download/Tears-of-Steel/tears_of_steel_720p.mp4"
+    },
+    {
+      "id": "fe58bb486c88",
+      "categoryId": "c15631e3d74e",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 91,
+      "releaseDate": "2026-06-05T15:57:03.613Z",
+      "createdAt": "2026-08-04T15:57:03.613Z",
+      "title": "ECHO9 — \"Static Bloom\" MV Teaser",
+      "type": "video",
+      "description": "Teaser clip for ECHO9's comeback title track \"Static Bloom.\"",
+      "mediaUrl": "https://archive.org/download/Sintel/sintel-2048-stereo_512kb.mp4"
+    },
+    {
+      "id": "1cc6b7ddf780",
+      "categoryId": "8150d79c7260",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 93,
+      "releaseDate": "2026-06-05T15:57:03.613Z",
+      "createdAt": "2026-08-04T15:57:03.613Z",
+      "title": "Convention Floor Walkthrough — Cosplay Highlights",
+      "type": "video",
+      "description": "A walkthrough of standout cosplay builds from this year's convention floor.",
+      "mediaUrl": "https://archive.org/download/Tears-of-Steel/tears_of_steel_720p.mp4"
+    },
+    {
+      "id": "ce64168d2d86",
+      "categoryId": "6d951a66b141",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 76,
+      "releaseDate": "2026-07-15T15:57:03.613Z",
+      "createdAt": "2026-07-30T15:57:03.613Z",
+      "title": "Ashfall Academy: Season Finale Breakdown",
+      "type": "article",
+      "description": "Unpacking the twist ending of the fire-magic school drama everyone is arguing about.",
+      "body": "Ashfall Academy wrapped its first season with a twist that split the fandom cleanly in half: was Instructor Kade always working against the Ember Council, or did the finale retcon three episodes of foreshadowing?\n\nRewatching the season with that question in mind, the clues are there from episode four — his glove never ignites the same way twice. Small detail, huge payoff.\n\nSeason two is confirmed for next year, and the studio has said the academy setting will expand beyond the fire wing for the first time."
+    },
+    {
+      "id": "3c5565c7253e",
+      "categoryId": "64257a51cda3",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 47,
+      "releaseDate": "2026-07-15T15:57:03.613Z",
+      "createdAt": "2026-07-30T15:57:03.613Z",
+      "title": "Voidrunner Protocol Speedrun Community Hits a Milestone",
+      "type": "article",
+      "description": "The any% category has been broken under nine minutes for the first time.",
+      "body": "A community-discovered skip involving the game's gravity-inversion mechanic has reshaped the entire any% category for Voidrunner Protocol. Runners are now routing through the second act's locked vault room three hours \"early\" in real time by exploiting a frame-perfect inversion cancel.\n\nThe current world record sits at 8:52, down from a pre-patch average of roughly fourteen minutes. Speedrunning communities are already petitioning the developer not to patch the skip out."
+    },
+    {
+      "id": "5e2348dafc7a",
+      "categoryId": "bab2cfe7f434",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 43,
+      "releaseDate": "2026-07-15T15:57:03.613Z",
+      "createdAt": "2026-07-30T15:57:03.613Z",
+      "title": "Midnight Cartographer: What That Ending Actually Means",
+      "type": "article",
+      "description": "Breaking down the ambiguous final shot that has festival audiences split.",
+      "body": "Midnight Cartographer ends on a single unbroken shot of an empty map table, the titular cartographer's pen still rolling off the edge. No dialogue, no score. It is the kind of ending built to be argued about, and it has been.\n\nThe strongest reading treats the film as a ghost story told entirely through absence — every map the cartographer drew across the runtime maps a place that, we slowly realize, no longer exists by the time she draws it."
+    },
+    {
+      "id": "edefc6a1b924",
+      "categoryId": "01a475754553",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 98,
+      "releaseDate": "2026-07-15T15:57:03.613Z",
+      "createdAt": "2026-07-30T15:57:03.613Z",
+      "title": "Paper Cities: A Season One Retrospective",
+      "type": "article",
+      "description": "Looking back at the anthology series' strongest and weakest episodes before season two.",
+      "body": "Paper Cities told eight stories in eight different fictional cities in its first season, an anthology structure that is always going to be uneven by design. \"The Archivist,\" episode four, remains the clear standout — a quiet story about a city that forgets one resident every year.\n\nSeason two moves to a serialized structure, which is either going to solve the anthology's consistency problem or lose what made it distinct in the first place."
+    },
+    {
+      "id": "cc4e6c250081",
+      "categoryId": "c15631e3d74e",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 88,
+      "releaseDate": "2026-07-15T15:57:03.613Z",
+      "createdAt": "2026-07-30T15:57:03.613Z",
+      "title": "VELVET SIGNAL Announces World Tour Dates",
+      "type": "article",
+      "description": "The five-piece group's first world tour will span 22 cities across four continents.",
+      "body": "VELVET SIGNAL confirmed their long-rumored world tour today, with 22 stops spanning North America, Europe, Southeast Asia, and Oceania. Tickets for the first wave of city announcements go on sale next month.\n\nThe tour is expected to support both of the group's most recent releases, and fan community threads are already trading predictions on the setlist order."
+    },
+    {
+      "id": "acc2094503ea",
+      "categoryId": "b87ff49d8943",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 64,
+      "releaseDate": "2026-07-15T15:57:03.613Z",
+      "createdAt": "2026-07-30T15:57:03.613Z",
+      "title": "The Hollow Choir Is Getting an Omnibus",
+      "type": "article",
+      "description": "All three volumes of the horror-fantasy series will be collected in a single oversized edition.",
+      "body": "The Hollow Choir's publisher announced an omnibus edition collecting all three existing volumes, plus roughly 30 pages of previously unpublished sketches and an interview with the creative team.\n\nFor a series that built its reputation partly on unsettling, densely detailed page layouts, the oversized trim size should be a genuine upgrade over the standard-format single issues."
+    },
+    {
+      "id": "720e894dc44d",
+      "categoryId": "45b432cd3fe0",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 40,
+      "releaseDate": "2026-07-15T15:57:03.613Z",
+      "createdAt": "2026-07-30T15:57:03.613Z",
+      "title": "Silent Orbit Wraps Its Serialization",
+      "type": "article",
+      "description": "After six years, the sci-fi manga concludes with its 24th and final volume.",
+      "body": "Silent Orbit's final chapter published this week, closing out a six-year serialization with an ending that, by most early reader reactions, sticks the landing the story had been building toward since its slow-burn first act.\n\nThe creator confirmed in an afterword that a planned spinoff, following a secondary cast member from the back half of the series, is currently in early planning."
+    },
+    {
+      "id": "13a9350bac1a",
+      "categoryId": "8150d79c7260",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 72,
+      "releaseDate": "2026-07-15T15:57:03.613Z",
+      "createdAt": "2026-07-30T15:57:03.613Z",
+      "title": "How Group Cosplay Coordinators Plan a 12-Person Build",
+      "type": "article",
+      "description": "Behind the scenes of one of the largest coordinated group cosplays at this year's convention season.",
+      "body": "Coordinating a single cosplay build is a project. Coordinating twelve, across different cities, different skill levels, and one shared deadline, is closer to running a small production. This piece follows one group's coordinator through the four-month planning process — shared reference sheets, a strict fabric-sourcing spreadsheet, and a group video call every two weeks to catch problems early."
+    },
+    {
+      "id": "08391967534a",
+      "categoryId": "6d951a66b141",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 43,
+      "releaseDate": "2026-08-24T15:57:03.612Z",
+      "createdAt": "2026-07-25T15:57:03.613Z",
+      "title": "Starlit Requiem",
+      "type": "article",
+      "description": "A grief-stricken conductor discovers her late sister's unfinished symphony can bend time itself.",
+      "body": "Starlit Requiem opened its second cour this season, and it has quietly become the most talked-about drama of the year. What starts as a quiet character study about a conductor named Mio grieving her sister unfolds into something stranger: the symphony her sister left behind seems to replay fragments of the past whenever it is performed.\n\nThe animation leans heavily on watercolor-style backgrounds during the flashback sequences, a deliberate contrast to the sharp linework of the present-day orchestra hall. It is a small technical choice that does a lot of emotional work.\n\nWhat keeps fans in the comment threads arguing every week isn't the time-loop mechanics, though — it's whether Mio should forgive herself. The show refuses to answer that cleanly, and that restraint is why it is resonating."
+    },
+    {
+      "id": "3db247d12f3b",
+      "categoryId": "64257a51cda3",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 84,
+      "releaseDate": "2026-08-24T15:57:03.613Z",
+      "createdAt": "2026-07-25T15:57:03.613Z",
+      "title": "Ember Keep Just Got Its Biggest Update Yet",
+      "type": "article",
+      "description": "The cozy-roguelike hybrid adds a full second keep to rebuild, plus new co-op mode.",
+      "body": "Ember Keep has always sat in an odd, wonderful genre space — half cozy management sim, half roguelike dungeon crawl. The 2.0 update, out this week, leans harder into both halves at once.\n\nThe headline feature is a second keep, found after defeating the update's new final boss, which can be rebuilt in an entirely different architectural style using materials only found in the previously unreachable Frostward biome.\n\nCo-op is the other big addition: up to three players can now raid together, with keep management staying single-player to avoid the classic \"everyone wants to place the furniture\" problem."
+    },
+    {
+      "id": "0fe60f8ed8e4",
+      "categoryId": "bab2cfe7f434",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 42,
+      "releaseDate": "2026-08-24T15:57:03.613Z",
+      "createdAt": "2026-07-25T15:57:03.613Z",
+      "title": "The Glass Horizon Is the Slow-Burn Sci-Fi of the Year",
+      "type": "article",
+      "description": "A generation ship drama that trusts its audience to sit with silence.",
+      "body": "The Glass Horizon spends its first twenty minutes without a single line of dialogue, tracking a maintenance worker through the guts of a generation ship in visible disrepair. It is a bold opening for a studio film, and it pays off.\n\nThe film's central question — whether the ship's remaining passengers should wake the next generation early, knowing resources won't stretch — never resolves into easy heroism. Both the captain and her chief engineer make defensible, opposing choices, and the film lets that sit.\n\nEarly festival reactions have compared its pacing to classic hard sci-fi rather than anything released in the last decade, which tracks: this is a patient, quiet film in a genre that has mostly stopped being either."
+    },
+    {
+      "id": "68952ae6d485",
+      "categoryId": "01a475754553",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 53,
+      "releaseDate": "2026-08-24T15:57:03.613Z",
+      "createdAt": "2026-07-25T15:57:03.613Z",
+      "title": "The Last Lighthouse Renewed for a Final Season",
+      "type": "article",
+      "description": "The mystery-drama will end with a fourth and final season next year.",
+      "body": "The network confirmed today that The Last Lighthouse will conclude with a fourth season, giving the writers room the ending they've reportedly been building toward since season one.\n\nShowrunner statements have been careful not to spoil anything, but the phrase \"the light was never the point\" keeps showing up in interviews, which fans have already turned into a fairly compelling season-four prediction."
+    },
+    {
+      "id": "f7acd0319ec8",
+      "categoryId": "c15631e3d74e",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 57,
+      "releaseDate": "2026-08-24T15:57:03.613Z",
+      "createdAt": "2026-07-25T15:57:03.613Z",
+      "title": "LUNA ELEVEN's Comeback Broke Three Streaming Records",
+      "type": "article",
+      "description": "The title track \"Paper Moonlight\" is now the fastest music video to hit 50 million views for the group.",
+      "body": "LUNA ELEVEN's fifth mini-album arrived with \"Paper Moonlight\" as its title track, and the numbers have been extraordinary even by the group's own standards: fastest video to 50 million views, biggest first-day album sales, and a real-time chart sweep across every major domestic platform within six hours.\n\nChoreography breakdown accounts flooded in almost immediately — the bridge section's formation change, done in a single continuous camera move during the music video, is already being called one of the most technically demanding sequences the group has performed."
+    },
+    {
+      "id": "4d062eef4bbe",
+      "categoryId": "b87ff49d8943",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [
+        {
+          "userId": "c53de565474e",
+          "stars": 5
+        }
+      ],
+      "popularityScore": 99,
+      "releaseDate": "2026-08-24T15:57:03.613Z",
+      "createdAt": "2026-07-25T15:57:03.613Z",
+      "title": "Ironclad Wren #12 Sticks the Landing",
+      "type": "article",
+      "description": "The first arc of the indie mecha-noir book closes on exactly the right note.",
+      "body": "Ironclad Wren has been one of the strongest debut indie books of the year, and issue twelve closes its opening arc without a single wasted page. The reveal about the titular mech's original pilot recontextualizes nearly everything from issue one.\n\nArtist changes mid-run are usually a red flag, but the transition between the first six issues and the back half here was handled about as gracefully as possible, with the new artist clearly building on the established visual language rather than overwriting it."
+    },
+    {
+      "id": "e0823a986c4c",
+      "categoryId": "45b432cd3fe0",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 93,
+      "releaseDate": "2026-08-24T15:57:03.613Z",
+      "createdAt": "2026-07-25T15:57:03.613Z",
+      "title": "Crimson Loom Volume 8: The Fandom's Favorite Arc Yet",
+      "type": "article",
+      "description": "The thread-weaving fantasy series delivers its best-paced volume to date.",
+      "body": "Crimson Loom's eighth volume trims a lot of the setup-heavy pacing that slowed down volumes four through six, and the result is the tightest stretch of the series so far. The \"unraveling\" fight sequence in chapter 61 is already being called one of the best-choreographed action sequences the series has produced.\n\nEnglish translation for volume 8 is scheduled for next quarter, putting it roughly four volumes behind the original release — a gap that has been slowly closing over the past year."
+    },
+    {
+      "id": "9e97a7ecaee1",
+      "categoryId": "8150d79c7260",
+      "status": "approved",
+      "submittedBy": null,
+      "ratings": [],
+      "popularityScore": 67,
+      "releaseDate": "2026-08-24T15:57:03.613Z",
+      "createdAt": "2026-07-25T15:57:03.613Z",
+      "title": "Building Foam Armor That Survives a Full Con Weekend",
+      "type": "article",
+      "description": "A materials and construction breakdown from this year's most-photographed armor build.",
+      "body": "Foam armor that looks great in a photoshoot but falls apart by hour four of a convention floor is a problem every cosplayer eventually runs into. This build breakdown focuses on the layering and sealing techniques used in one of this season's most-photographed armor sets: EVA foam base, a flexible primer coat, and a two-part sealant that keeps pieces from cracking under repeated flexing.\n\nThe biggest takeaway from the maker's own notes: strapping and weight distribution matter more than paint finish for whether a build actually survives being worn all day."
+    }
+  ],
+  "characters": [
+    {
+      "id": "1ce3cb919373",
+      "categoryId": "6d951a66b141",
+      "name": "Mio Kanzaki",
+      "bio": "A prodigy conductor who inherited her late sister's orchestra and, unknowingly, her unfinished time-bending symphony.",
+      "affiliation": "Starlit Requiem",
+      "tags": [
+        "protagonist",
+        "musician"
+      ]
+    },
+    {
+      "id": "f62469eb839e",
+      "categoryId": "6d951a66b141",
+      "name": "Instructor Kade",
+      "bio": "Ashfall Academy's most feared fire-magic teacher, revealed in the finale to be playing a much longer game than anyone realized.",
+      "affiliation": "Ashfall Academy",
+      "tags": [
+        "mentor",
+        "twist"
+      ]
+    },
+    {
+      "id": "b99fb296477f",
+      "categoryId": "6d951a66b141",
+      "name": "Rin Amano",
+      "bio": "The spirit-fox racer at the center of Nine Tail Drift, competing in illegal night races to pay off a debt she never agreed to.",
+      "affiliation": "Nine Tail Drift",
+      "tags": [
+        "racer",
+        "protagonist"
+      ]
+    },
+    {
+      "id": "8e222b143f8e",
+      "categoryId": "64257a51cda3",
+      "name": "Warden Bryn",
+      "bio": "The playable protagonist of Ember Keep, a disgraced knight rebuilding a ruined fortress one raid at a time.",
+      "affiliation": "Ember Keep",
+      "tags": [
+        "protagonist",
+        "playable"
+      ]
+    },
+    {
+      "id": "6d39fa1d0313",
+      "categoryId": "64257a51cda3",
+      "name": "Unit 7-Vex",
+      "bio": "The rogue AI companion guiding the player through Voidrunner Protocol's gravity-broken station.",
+      "affiliation": "Voidrunner Protocol",
+      "tags": [
+        "companion",
+        "ai"
+      ]
+    },
+    {
+      "id": "eba7878dff8e",
+      "categoryId": "bab2cfe7f434",
+      "name": "Captain Odalys Reyes",
+      "bio": "Commander of the generation ship in The Glass Horizon, forced to choose between protocol and survival.",
+      "affiliation": "The Glass Horizon",
+      "tags": [
+        "captain",
+        "protagonist"
+      ]
+    },
+    {
+      "id": "1b6f8654f63d",
+      "categoryId": "bab2cfe7f434",
+      "name": "The Cartographer",
+      "bio": "Unnamed protagonist of Midnight Cartographer, mapping a coastline that keeps rearranging itself.",
+      "affiliation": "Midnight Cartographer",
+      "tags": [
+        "mystery"
+      ]
+    },
+    {
+      "id": "8c5b27f4623b",
+      "categoryId": "01a475754553",
+      "name": "Deputy Farrow",
+      "bio": "The lighthouse keeper's estranged daughter, now the town's deputy, at the center of The Last Lighthouse.",
+      "affiliation": "The Last Lighthouse",
+      "tags": [
+        "detective"
+      ]
+    },
+    {
+      "id": "6e0a65f73deb",
+      "categoryId": "01a475754553",
+      "name": "The Archivist",
+      "bio": "A recurring figure across Paper Cities' anthology episodes who remembers what each city forgets.",
+      "affiliation": "Paper Cities",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "id": "750bc8c30ba1",
+      "categoryId": "c15631e3d74e",
+      "name": "LUNA ELEVEN",
+      "bio": "Six-member group known for cinematic comebacks and famously demanding choreography.",
+      "affiliation": "LUNA ELEVEN",
+      "tags": [
+        "group"
+      ]
+    },
+    {
+      "id": "c9ea1b2ce746",
+      "categoryId": "c15631e3d74e",
+      "name": "VELVET SIGNAL",
+      "bio": "Five-piece group heading into their first world tour on the strength of two chart-topping releases.",
+      "affiliation": "VELVET SIGNAL",
+      "tags": [
+        "group"
+      ]
+    },
+    {
+      "id": "4dc3c4784eb0",
+      "categoryId": "c15631e3d74e",
+      "name": "ECHO9",
+      "bio": "Rookie group of the year, currently promoting their debut comeback \"Static Bloom.\"",
+      "affiliation": "ECHO9",
+      "tags": [
+        "group",
+        "rookie"
+      ]
+    },
+    {
+      "id": "8eb2d9338370",
+      "categoryId": "b87ff49d8943",
+      "name": "Wren Okafor",
+      "bio": "Pilot of the salvaged mech Ironclad in the noir series of the same name, hiding a connection to its original pilot.",
+      "affiliation": "Ironclad Wren",
+      "tags": [
+        "pilot",
+        "protagonist"
+      ]
+    },
+    {
+      "id": "22d3c19c5547",
+      "categoryId": "b87ff49d8943",
+      "name": "The Choirmaster",
+      "bio": "The central antagonist of The Hollow Choir, whose true form is never drawn the same way twice.",
+      "affiliation": "The Hollow Choir",
+      "tags": [
+        "antagonist"
+      ]
+    },
+    {
+      "id": "0b8957e58c87",
+      "categoryId": "45b432cd3fe0",
+      "name": "Sera Vantis",
+      "bio": "The thread-weaver protagonist of Crimson Loom, whose \"unraveling\" technique carries real narrative cost.",
+      "affiliation": "Crimson Loom",
+      "tags": [
+        "protagonist"
+      ]
+    },
+    {
+      "id": "d5f9efd21c43",
+      "categoryId": "45b432cd3fe0",
+      "name": "Kael Oshiro",
+      "bio": "The reluctant pilot at the center of Silent Orbit's six-year arc.",
+      "affiliation": "Silent Orbit",
+      "tags": [
+        "protagonist"
+      ]
+    },
+    {
+      "id": "d594b4f142a7",
+      "categoryId": "8150d79c7260",
+      "name": "The Armor Build Community",
+      "bio": "A loose, active community of makers sharing foam-smithing and armor-construction techniques.",
+      "affiliation": "Community Feature",
+      "tags": [
+        "maker",
+        "community"
+      ]
+    }
+  ],
+  "merch": [
+    {
+      "id": "44785da884be",
+      "categoryId": "6d951a66b141",
+      "viewCount": 56,
+      "name": "Starlit Requiem Vinyl OST (2xLP)",
+      "tag": "Limited Edition",
+      "isUpcoming": false,
+      "releaseDate": "2026-09-13T15:57:03.613Z",
+      "description": "Double vinyl pressing of the full orchestral score, numbered sleeve."
+    },
+    {
+      "id": "0f031ace71fa",
+      "categoryId": "6d951a66b141",
+      "viewCount": 335,
+      "name": "Ashfall Academy Enamel Pin Set",
+      "tag": "Pre-Order",
+      "isUpcoming": true,
+      "releaseDate": "2026-10-11T15:57:03.613Z",
+      "description": "Five-pin set representing each of the academy's elemental wings."
+    },
+    {
+      "id": "4d6ce623cc70",
+      "categoryId": "64257a51cda3",
+      "viewCount": 267,
+      "name": "Ember Keep Collector's Edition Steelbook",
+      "tag": "Collectible",
+      "isUpcoming": false,
+      "releaseDate": "2026-09-18T15:57:03.613Z",
+      "description": "Steelbook case with the 2.0 soundtrack code and a fold-out keep blueprint poster."
+    },
+    {
+      "id": "eac74384e1b8",
+      "categoryId": "64257a51cda3",
+      "viewCount": 20,
+      "name": "Voidrunner Protocol Vex Figure",
+      "tag": "Pre-Order",
+      "isUpcoming": true,
+      "releaseDate": "2026-11-02T15:57:03.613Z",
+      "description": "6-inch light-up figure of the companion drone Unit 7-Vex."
+    },
+    {
+      "id": "4c0a64e3da43",
+      "categoryId": "bab2cfe7f434",
+      "viewCount": 307,
+      "name": "The Glass Horizon 4K Steelbook",
+      "tag": "Limited Edition",
+      "isUpcoming": true,
+      "releaseDate": "2026-10-18T15:57:03.613Z",
+      "description": "Includes a 40-page ship schematics booklet."
+    },
+    {
+      "id": "b09ab58c61bc",
+      "categoryId": "bab2cfe7f434",
+      "viewCount": 272,
+      "name": "Salt & Static Poster (Screen Print)",
+      "tag": "Collectible",
+      "isUpcoming": false,
+      "releaseDate": "2026-09-09T15:57:03.613Z",
+      "description": "Hand-numbered screen print run of 500, coastal indigo palette."
+    },
+    {
+      "id": "7ebe7fa71a48",
+      "categoryId": "01a475754553",
+      "viewCount": 313,
+      "name": "The Last Lighthouse Complete Series Box Set",
+      "tag": "Pre-Order",
+      "isUpcoming": true,
+      "releaseDate": "2026-11-22T15:57:03.613Z",
+      "description": "All four seasons, including the final season, in a lighthouse-shaped case."
+    },
+    {
+      "id": "7aad243d0c10",
+      "categoryId": "01a475754553",
+      "viewCount": 307,
+      "name": "Nocturne County Enamel Map Pin",
+      "tag": "Standard",
+      "isUpcoming": false,
+      "releaseDate": "2026-09-03T15:57:03.613Z",
+      "description": "A pin of the fictional county map used in the show's opening titles."
+    },
+    {
+      "id": "6a240de84d59",
+      "categoryId": "c15631e3d74e",
+      "viewCount": 40,
+      "name": "LUNA ELEVEN \"Paper Moonlight\" Photocard Set",
+      "tag": "Limited Edition",
+      "isUpcoming": false,
+      "releaseDate": "2026-09-15T15:57:03.613Z",
+      "description": "Full 6-member photocard set from the fifth mini-album."
+    },
+    {
+      "id": "85e9a00d2c4d",
+      "categoryId": "c15631e3d74e",
+      "viewCount": 115,
+      "name": "VELVET SIGNAL World Tour Lightstick Ver.2",
+      "tag": "Pre-Order",
+      "isUpcoming": true,
+      "releaseDate": "2026-10-23T15:57:03.613Z",
+      "description": "Updated lightstick with tour-exclusive Bluetooth sync colors."
+    },
+    {
+      "id": "52e2839e681c",
+      "categoryId": "b87ff49d8943",
+      "viewCount": 261,
+      "name": "Ironclad Wren #1 Variant Cover",
+      "tag": "Collectible",
+      "isUpcoming": false,
+      "releaseDate": "2026-08-09T15:57:03.613Z",
+      "description": "Foil variant cover, limited to the first print run."
+    },
+    {
+      "id": "135c5be1a8d1",
+      "categoryId": "b87ff49d8943",
+      "viewCount": 92,
+      "name": "The Hollow Choir Omnibus",
+      "tag": "Pre-Order",
+      "isUpcoming": true,
+      "releaseDate": "2026-11-12T15:57:03.613Z",
+      "description": "Oversized hardcover collecting all three volumes plus bonus material."
+    },
+    {
+      "id": "0eb183eb7ff8",
+      "categoryId": "45b432cd3fe0",
+      "viewCount": 318,
+      "name": "Crimson Loom Vol. 8 First-Print Edition",
+      "tag": "Limited Edition",
+      "isUpcoming": true,
+      "releaseDate": "2026-10-13T15:57:03.613Z",
+      "description": "First-print run includes a fold-out thread-map insert."
+    },
+    {
+      "id": "cf13faf1046c",
+      "categoryId": "45b432cd3fe0",
+      "viewCount": 205,
+      "name": "Silent Orbit Complete Set (Vol. 1-24)",
+      "tag": "Collectible",
+      "isUpcoming": false,
+      "releaseDate": "2026-09-20T15:57:03.613Z",
+      "description": "Complete boxed set with a newly illustrated slipcase."
+    },
+    {
+      "id": "a0de57b6cb56",
+      "categoryId": "8150d79c7260",
+      "viewCount": 52,
+      "name": "Fan Hub Plus Con Survival Kit",
+      "tag": "Standard",
+      "isUpcoming": false,
+      "releaseDate": "2026-09-11T15:57:03.613Z",
+      "description": "Repair tape, contact adhesive, and a foldable touch-up kit for con-floor fixes."
+    },
+    {
+      "id": "ea7d3c3ec807",
+      "categoryId": "8150d79c7260",
+      "viewCount": 67,
+      "name": "Maker Badge Pin Series 1",
+      "tag": "Collectible",
+      "isUpcoming": true,
+      "releaseDate": "2026-10-08T15:57:03.613Z",
+      "description": "Five-pin series celebrating community armor, sewing, wig, and prop makers."
+    }
+  ],
+  "events": [
+    {
+      "id": "ba587c614bab",
+      "title": "Armor & Foam Meetup",
+      "city": "Toronto",
+      "venue": "Distillery Maker Space",
+      "lat": 43.6503,
+      "lng": -79.3599,
+      "date": "2026-10-02T15:57:03.613Z",
+      "type": "Meetup",
+      "ticketUrl": "https://example.com/tickets/armor-meetup",
+      "description": "A hands-on cosplay armor-building meetup and skill swap."
+    },
+    {
+      "id": "5b02ee8df60a",
+      "title": "Nine Tail Drift Screening Night",
+      "city": "Tokyo",
+      "venue": "Shinbashi Cinema Hall",
+      "lat": 35.6664,
+      "lng": 139.758,
+      "date": "2026-10-05T15:57:03.613Z",
+      "type": "Screening",
+      "ticketUrl": "https://example.com/tickets/ntd-screening",
+      "description": "Early-access screening of the next Nine Tail Drift story arc."
+    },
+    {
+      "id": "c49e5312ef52",
+      "title": "Crimson Loom Volume 8 Launch",
+      "city": "Manila",
+      "venue": "Bookhaven Main Branch",
+      "lat": 14.5995,
+      "lng": 120.9842,
+      "date": "2026-10-14T15:57:03.613Z",
+      "type": "Release Event",
+      "ticketUrl": "https://example.com/tickets/crimson-loom-launch",
+      "description": "Launch event and signed-copy giveaway for Crimson Loom Volume 8."
+    },
+    {
+      "id": "c474541196a7",
+      "title": "Fandom Universe Con",
+      "city": "Los Angeles",
+      "venue": "Harborview Convention Center",
+      "lat": 34.0407,
+      "lng": -118.2468,
+      "date": "2026-10-28T15:57:03.613Z",
+      "type": "Convention",
+      "ticketUrl": "https://example.com/tickets/fuc-la",
+      "description": "A multi-fandom convention spanning anime, gaming, comics, and cosplay guests."
+    },
+    {
+      "id": "be14c47edc1f",
+      "title": "LUNA ELEVEN World Tour — London Stop",
+      "city": "London",
+      "venue": "Riverside Arena",
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "date": "2026-11-10T15:57:03.613Z",
+      "type": "Concert",
+      "ticketUrl": "https://example.com/tickets/luna-london",
+      "description": "The London leg of the Paper Moonlight world tour."
+    },
+    {
+      "id": "86ca9acf04a3",
+      "title": "Fandom Universe Con — New York",
+      "city": "New York",
+      "venue": "Pier 94 Exhibition Hall",
+      "lat": 40.769,
+      "lng": -73.9971,
+      "date": "2026-12-02T15:57:03.613Z",
+      "type": "Convention",
+      "ticketUrl": "https://example.com/tickets/fuc-ny",
+      "description": "The East Coast edition of Fandom Universe Con."
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": "e96ddb52c07a",
+      "userId": "221b253424c9",
+      "targetType": "content",
+      "targetId": "08391967534a",
+      "note": "Rewatch this scene breakdown before the finale.",
+      "createdAt": "2026-09-20T15:57:03.751Z"
+    },
+    {
+      "id": "41cc4dfe1dcd",
+      "userId": "221b253424c9",
+      "targetType": "character",
+      "targetId": "750bc8c30ba1",
+      "note": "",
+      "createdAt": "2026-09-22T15:57:03.751Z"
+    },
+    {
+      "id": "6803f224ddd4",
+      "userId": "c53de565474e",
+      "targetType": "content",
+      "targetId": "4d062eef4bbe",
+      "note": "",
+      "createdAt": "2026-09-25T16:35:54.428Z"
+    },
+    {
+      "id": "6c98e56dfe00",
+      "userId": "cd7c926136c1",
+      "targetType": "content",
+      "targetId": "c5fa769e08f7",
+      "note": "",
+      "createdAt": "2026-09-25T16:37:42.287Z"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "2c6e746f199a",
+      "userId": null,
+      "name": "ali",
+      "email": "aliraza@gmail.com",
+      "type": "bug",
+      "message": "the bug in web loading",
+      "status": "new",
+      "createdAt": "2026-09-25T15:15:53.796Z"
+    },
+    {
+      "id": "f1b75894655e",
+      "userId": "221b253424c9",
+      "name": "Jordan Blake",
+      "email": "jordan@example.com",
+      "type": "suggestion",
+      "message": "Would love a filter for \"currently airing\" anime specifically.",
+      "status": "new",
+      "createdAt": "2026-09-21T15:57:03.751Z"
+    },
+    {
+      "id": "917c9fce7507",
+      "userId": null,
+      "name": "Guest Visitor",
+      "email": "guest@example.com",
+      "type": "bug",
+      "message": "The merch page took a while to load images on mobile data.",
+      "status": "reviewed",
+      "createdAt": "2026-09-17T15:57:03.751Z"
+    }
+  ],
+  "chatbotFaq": [
+    {
+      "id": "852f991660cd",
+      "question": "How do I bookmark something?",
+      "keywords": [
+        "bookmark",
+        "save",
+        "favorite"
+      ],
+      "answer": "Open any article, character profile, video, or merch item and click the bookmark icon. You can view everything you've saved from your Dashboard.",
+      "category": "general"
+    },
+    {
+      "id": "754cb7b61c2d",
+      "question": "How do I change categories I follow?",
+      "keywords": [
+        "favorite categories",
+        "follow",
+        "interests",
+        "preferences"
+      ],
+      "answer": "Go to your Profile page and update your favorite fandoms under \"Categories of Interest\" — your dashboard and recommendations adjust automatically.",
+      "category": "account"
+    },
+    {
+      "id": "15ebdb898490",
+      "question": "How do I submit fan content?",
+      "keywords": [
+        "submit",
+        "fan content",
+        "article",
+        "contribute"
+      ],
+      "answer": "From the Articles hub, click \"Submit Fan Content.\" Your submission goes to an admin for approval before it appears publicly.",
+      "category": "content"
+    },
+    {
+      "id": "aaad8bb0c99b",
+      "question": "How do I find events near me?",
+      "keywords": [
+        "event",
+        "convention",
+        "nearby",
+        "meetup",
+        "map"
+      ],
+      "answer": "Visit the Events page and use the city filter, or allow location access to see the map centered near you.",
+      "category": "events"
+    },
+    {
+      "id": "443ab51a9643",
+      "question": "I forgot my password, what do I do?",
+      "keywords": [
+        "forgot password",
+        "reset",
+        "login",
+        "cant log in"
+      ],
+      "answer": "Click \"Forgot password?\" on the login page. We'll generate a reset link — in this demo build it's shown directly on screen instead of emailed.",
+      "category": "account"
+    },
+    {
+      "id": "87814aa8d858",
+      "question": "Can I turn on dark mode?",
+      "keywords": [
+        "dark mode",
+        "theme",
+        "night mode"
+      ],
+      "answer": "Yes — use the sun/moon icon in the top navigation bar. Your preference is saved to your account if you're logged in.",
+      "category": "accessibility"
+    },
+    {
+      "id": "88e2a75796d0",
+      "question": "How does content get sorted?",
+      "keywords": [
+        "sort",
+        "filter",
+        "popular",
+        "latest"
+      ],
+      "answer": "On the Explore page you can sort by Latest, Most Popular, or Alphabetical, and filter by category, content type, or release year.",
+      "category": "general"
+    },
+    {
+      "id": "4a8928b3105a",
+      "question": "How do I rate a video or audio clip?",
+      "keywords": [
+        "rate",
+        "rating",
+        "stars",
+        "thumbs"
+      ],
+      "answer": "Open the media item and use the star rating widget underneath the player. Ratings help shape the \"Most Popular\" sort order.",
+      "category": "content"
+    },
+    {
+      "id": "57c8360c084d",
+      "question": "Is there merchandise I can buy here?",
+      "keywords": [
+        "buy",
+        "purchase",
+        "merch",
+        "shop",
+        "checkout"
+      ],
+      "answer": "Fan Hub Plus showcases merchandise for discovery only — there's no checkout here. Pre-order and ticket links point to the official source.",
+      "category": "general"
+    },
+    {
+      "id": "749a4ddc1d59",
+      "question": "How do I report a bug?",
+      "keywords": [
+        "bug",
+        "issue",
+        "broken",
+        "error",
+        "problem"
+      ],
+      "answer": "Use the Feedback page and select \"Bug\" as the type. Admins review every submission from the control panel.",
+      "category": "support"
+    }
+  ],
+  "chatbotLogs": [
+    {
+      "id": "c27867586989",
+      "userId": "f85d69afa0a5",
+      "message": "How do I find events near me?",
+      "response": "Visit the Events page and use the city filter, or allow location access to see the map centered near you.",
+      "createdAt": "2026-09-25T11:09:16.351Z"
+    },
+    {
+      "id": "4f25cdbb7901",
+      "userId": "f85d69afa0a5",
+      "message": "How do I submit fan content?",
+      "response": "From the Articles hub, click \"Submit Fan Content.\" Your submission goes to an admin for approval before it appears publicly.",
+      "createdAt": "2026-09-25T11:09:22.744Z"
+    },
+    {
+      "id": "48e1d6ea7b41",
+      "userId": "f85d69afa0a5",
+      "message": "how to update my profile picture.",
+      "response": "I'm not totally sure about that one. Try asking about bookmarks, events, your dashboard, dark mode, or submitting fan content — or use the Feedback page and an admin will follow up.",
+      "createdAt": "2026-09-25T11:09:40.338Z"
+    },
+    {
+      "id": "16d533f37358",
+      "userId": null,
+      "message": "How do I find events near me?",
+      "response": "Visit the Events page and use the city filter, or allow location access to see the map centered near you.",
+      "createdAt": "2026-09-25T21:46:16.370Z"
+    },
+    {
+      "id": "f8dd9ead6192",
+      "userId": null,
+      "message": "How do I submit fan content?",
+      "response": "From the Articles hub, click \"Submit Fan Content.\" Your submission goes to an admin for approval before it appears publicly.",
+      "createdAt": "2026-09-26T06:08:37.632Z"
+    }
+  ]
+}

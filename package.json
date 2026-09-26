@@ -1,0 +1,16 @@
+{
+  "name": "fan-hub-plus",
+  "version": "1.0.0",
+  "description": "Fan Hub Plus - a fandom universe portal for anime, gaming, movies, TV, K-Pop, comics, manga and cosplay communities.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node utils/seed.js"
+  },
+  "author": "Fan Hub Plus Team",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {}
+}
